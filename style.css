@@ -1,0 +1,19 @@
+#main-frame{
+    background-image: url(./images/Beautiful-flower2.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: right bottom;
+}
+#main-frame1{
+    background-image: url(./images/garden-4147802_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: right bottom;
+}
+.benefit, .flower-sec{
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Crimson Text", serif;
+    font-optical-sizing: auto;
+    font-weight:100;
+    font-style: normal;
+}
