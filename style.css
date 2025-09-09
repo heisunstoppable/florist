@@ -10,10 +10,13 @@
     background-size:contain;
     background-position: right bottom;
 }
-.benefit, .flower-sec{
+.benefit, .flower-sec, #about, #floral{
     /* font-family: "Playfair Display", serif; */
     font-family: "Crimson Text", serif;
     font-optical-sizing: auto;
     font-weight:100;
     font-style: normal;
+}
+.floral{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
