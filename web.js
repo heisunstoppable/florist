@@ -32,3 +32,16 @@ slides.addEventListener("touchend", (e) =>{
     if (endX > startX + 100) prevSlide()
 })
 
+function tabswt(sectionId, btn){
+    document.getElementById("all").style.display = "none"   
+    document.getElementById("bouqet").style.display = "none"   
+    document.getElementById("flower").style.display = "none"   
+    document.getElementById("basket").style.display = "none"   
+    document.getElementById("gift").style.display = "none"   
+    document.getElementById(sectionId).style.display = "block"
+
+    document.querySelectorAll(".activelinks").forEach(button =>{
+        button.classList.remove("active")
+    })
+    btn.classList.add("active")
+}
