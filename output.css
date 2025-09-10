@@ -186,8 +186,14 @@
   .absolute {
     position: absolute;
   }
+  .fixed {
+    position: fixed;
+  }
   .relative {
     position: relative;
+  }
+  .sticky {
+    position: sticky;
   }
   .top-0 {
     top: calc(var(--spacing) * 0);
@@ -203,6 +209,9 @@
   }
   .left-2 {
     left: calc(var(--spacing) * 2);
+  }
+  .z-10 {
+    z-index: 10;
   }
   .m-2 {
     margin: calc(var(--spacing) * 2);
@@ -225,6 +234,12 @@
   .my-auto {
     margin-block: auto;
   }
+  .mt-1 {
+    margin-top: calc(var(--spacing) * 1);
+  }
+  .mt-2 {
+    margin-top: calc(var(--spacing) * 2);
+  }
   .mt-3 {
     margin-top: calc(var(--spacing) * 3);
   }
@@ -236,6 +251,9 @@
   }
   .mt-7 {
     margin-top: calc(var(--spacing) * 7);
+  }
+  .mt-8 {
+    margin-top: calc(var(--spacing) * 8);
   }
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
@@ -252,11 +270,20 @@
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
   }
+  .mb-5 {
+    margin-bottom: calc(var(--spacing) * 5);
+  }
   .ml-3 {
     margin-left: calc(var(--spacing) * 3);
   }
+  .block {
+    display: block;
+  }
   .flex {
     display: flex;
+  }
+  .grid {
+    display: grid;
   }
   .hidden {
     display: none;
@@ -309,6 +336,9 @@
   .max-w-xl {
     max-width: var(--container-xl);
   }
+  .flex-auto {
+    flex: auto;
+  }
   .border-collapse {
     border-collapse: collapse;
   }
@@ -329,6 +359,9 @@
   .resize {
     resize: both;
   }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
   .items-center {
     align-items: center;
   }
@@ -337,6 +370,9 @@
   }
   .justify-between {
     justify-content: space-between;
+  }
+  .justify-center {
+    justify-content: center;
   }
   .justify-end {
     justify-content: flex-end;
@@ -358,6 +394,9 @@
   }
   .overflow-hidden {
     overflow: hidden;
+  }
+  .rounded {
+    border-radius: 0.25rem;
   }
   .rounded-4xl {
     border-radius: var(--radius-4xl);
@@ -408,11 +447,38 @@
   .bg-\[url\(\'\'\)\] {
     background-image: url('');
   }
+  .bg-\[url\(\'\.\/images\/\.jpg\'\)\] {
+    background-image: url('./images/.jpg');
+  }
   .bg-\[url\(\'\.\/images\/cactus\'\)\] {
     background-image: url('./images/cactus');
   }
   .bg-\[url\(\'\.\/images\/cactus\.jpg\'\)\] {
     background-image: url('./images/cactus.jpg');
+  }
+  .bg-\[url\(\'\.\/images\/cactustt\.jpg\'\)\] {
+    background-image: url('./images/cactustt.jpg');
+  }
+  .bg-\[url\(\'\.\/images\/cactustt\.webp\'\)\] {
+    background-image: url('./images/cactustt.webp');
+  }
+  .bg-\[url\(\'\.\/images\/fal\.webp\'\)\] {
+    background-image: url('./images/fal.webp');
+  }
+  .bg-\[url\(\'\.\/images\/falling\.jpg\'\)\] {
+    background-image: url('./images/falling.jpg');
+  }
+  .bg-\[url\(\'\.\/images\/falling\.webp\'\)\] {
+    background-image: url('./images/falling.webp');
+  }
+  .bg-\[url\(\'\.\/images\/flyme\.webp\'\)\] {
+    background-image: url('./images/flyme.webp');
+  }
+  .bg-\[url\(\'\.\/images\/flymw\.jpeg\'\)\] {
+    background-image: url('./images/flymw.jpeg');
+  }
+  .bg-\[url\(\'\.\/images\/flymw\.webp\'\)\] {
+    background-image: url('./images/flymw.webp');
   }
   .bg-\[url\(\'\.\/images\/furni\.jpg\'\)\] {
     background-image: url('./images/furni.jpg');
@@ -422,6 +488,42 @@
   }
   .bg-\[url\(\'\.\/images\/furniture\.jpg\'\)\] {
     background-image: url('./images/furniture.jpg');
+  }
+  .bg-\[url\(\'\.\/images\/glass-w\.jpg\'\)\] {
+    background-image: url('./images/glass-w.jpg');
+  }
+  .bg-\[url\(\'\.\/images\/glass-water\.jpg\'\)\] {
+    background-image: url('./images/glass-water.jpg');
+  }
+  .bg-\[url\(\'\.\/images\/green\.jpg\'\)\] {
+    background-image: url('./images/green.jpg');
+  }
+  .bg-\[url\(\'\.\/images\/leaf\.jpg\'\)\] {
+    background-image: url('./images/leaf.jpg');
+  }
+  .bg-\[url\(\'\.\/images\/o\.jpg\'\)\] {
+    background-image: url('./images/o.jpg');
+  }
+  .bg-\[url\(\'\.\/images\/onio\.jpg\'\)\] {
+    background-image: url('./images/onio.jpg');
+  }
+  .bg-\[url\(\'\.\/images\/onion\.jpg\'\)\] {
+    background-image: url('./images/onion.jpg');
+  }
+  .bg-\[url\(\'\.\/images\/peony\.jpg\'\)\] {
+    background-image: url('./images/peony.jpg');
+  }
+  .bg-\[url\(\'\.\/images\/peony\.webp\'\)\] {
+    background-image: url('./images/peony.webp');
+  }
+  .bg-\[url\(\'\.\/images\/pla\.jpg\'\)\] {
+    background-image: url('./images/pla.jpg');
+  }
+  .bg-\[url\(\'\.\/images\/plant\.jpg\'\)\] {
+    background-image: url('./images/plant.jpg');
+  }
+  .bg-\[url\(\'\.\/images\/primula\.jpg\'\)\] {
+    background-image: url('./images/primula.jpg');
   }
   .bg-\[url\(\'\.\/images\/succulent\.jpg\'\)\] {
     background-image: url('./images/succulent.jpg');
@@ -479,6 +581,15 @@
   }
   .p-5 {
     padding: calc(var(--spacing) * 5);
+  }
+  .p-7 {
+    padding: calc(var(--spacing) * 7);
+  }
+  .p-10 {
+    padding: calc(var(--spacing) * 10);
+  }
+  .px-3 {
+    padding-inline: calc(var(--spacing) * 3);
   }
   .px-5 {
     padding-inline: calc(var(--spacing) * 5);
@@ -594,6 +705,10 @@
   .underline {
     text-decoration-line: underline;
   }
+  .shadow-2xl {
+    --tw-shadow: 0 25px 50px -12px var(--tw-shadow-color, rgb(0 0 0 / 0.25));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
   .shadow-lg {
     --tw-shadow: 0 10px 15px -3px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 4px 6px -4px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
@@ -614,6 +729,20 @@
   .duration-500 {
     --tw-duration: 500ms;
     transition-duration: 500ms;
+  }
+  .hover\:block {
+    &:hover {
+      @media (hover: hover) {
+        display: block;
+      }
+    }
+  }
+  .hover\:hidden {
+    &:hover {
+      @media (hover: hover) {
+        display: none;
+      }
+    }
   }
 }
 @property --tw-translate-x {
