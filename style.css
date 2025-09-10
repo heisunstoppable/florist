@@ -10,7 +10,7 @@
     background-size:contain;
     background-position: right bottom;
 }
-.benefit, .flower-sec, #about, #floral{
+.benefit, .flower-sec, #about, #floral, #newarrival, #subtxt{
     /* font-family: "Playfair Display", serif; */
     font-family: "Crimson Text", serif;
     font-optical-sizing: auto;
@@ -19,4 +19,22 @@
 }
 .floral{
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.activelinks.active{
+    outline: 2px solid #f45d96;
+    cursor: pointer;
+}
+
+.allin:hover .allincart{
+    display: block;
+}
+.allin:hover .allinprice{
+    display: none;
+}
+#icons{
+    display: none;
+}
+.allin:hover #icons{
+    display: block;
 }
