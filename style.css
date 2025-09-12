@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Shalimar&display=swap');
 #main-frame{
     background-image: url(./images/Beautiful-flower2.png);
     background-repeat: no-repeat;
@@ -10,13 +11,20 @@
     background-size:contain;
     background-position: right bottom;
 }
-.benefit, .flower-sec, #about, #floral, #newarrival, #subtxt{
+.benefit, .flower-sec, #about, #floral, #newarrival, #subtxt, .florist{
     /* font-family: "Playfair Display", serif; */
     font-family: "Crimson Text", serif;
     font-optical-sizing: auto;
     font-weight:100;
     font-style: normal;
 }
+
+.lavishly-yours-regular {
+    font-family: "Shalimar", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
 .floral{
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
