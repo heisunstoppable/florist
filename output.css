@@ -7,28 +7,19 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-pink-200: oklch(89.9% 0.061 343.231);
-    --color-pink-300: oklch(82.3% 0.12 346.018);
-    --color-pink-400: oklch(71.8% 0.202 349.761);
     --color-pink-500: oklch(65.6% 0.241 354.308);
     --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
-    --container-xl: 36rem;
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
-    --text-3xl: 1.875rem;
-    --text-3xl--line-height: calc(2.25 / 1.875);
     --text-4xl: 2.25rem;
     --text-4xl--line-height: calc(2.5 / 2.25);
     --text-6xl: 3.75rem;
     --text-6xl--line-height: 1;
-    --font-weight-extralight: 200;
-    --font-weight-light: 300;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
     --leading-loose: 2;
-    --radius-lg: 0.5rem;
     --radius-4xl: 2rem;
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -372,8 +363,17 @@
       background-color: color-mix(in oklab, var(--color-white) 70%, transparent);
     }
   }
+  .bg-\[url\(\'\.\/images\/\.jpg\'\)\] {
+    background-image: url('./images/.jpg');
+  }
+  .bg-\[url\(\'\.\/images\/\.webp\'\)\] {
+    background-image: url('./images/.webp');
+  }
   .bg-\[url\(\'\.\/images\/Falling\.webp\'\)\] {
     background-image: url('./images/Falling.webp');
+  }
+  .bg-\[url\(\'\.\/images\/P\.jpg\'\)\] {
+    background-image: url('./images/P.jpg');
   }
   .bg-\[url\(\'\.\/images\/Primula\.jpg\'\)\] {
     background-image: url('./images/Primula.jpg');
@@ -384,9 +384,6 @@
   .bg-\[url\(\'\.\/images\/cactustt\.jpg\'\)\] {
     background-image: url('./images/cactustt.jpg');
   }
-  .bg-\[url\(\'\.\/images\/falling\.webp\'\)\] {
-    background-image: url('./images/falling.webp');
-  }
   .bg-\[url\(\'\.\/images\/flyme\.webp\'\)\] {
     background-image: url('./images/flyme.webp');
   }
@@ -396,23 +393,38 @@
   .bg-\[url\(\'\.\/images\/glass-water\.jpg\'\)\] {
     background-image: url('./images/glass-water.jpg');
   }
+  .bg-\[url\(\'\.\/images\/glass\.jpg\'\)\] {
+    background-image: url('./images/glass.jpg');
+  }
   .bg-\[url\(\'\.\/images\/green\.jpg\'\)\] {
     background-image: url('./images/green.jpg');
+  }
+  .bg-\[url\(\'\.\/images\/leaf\.\'\)\] {
+    background-image: url('./images/leaf.');
   }
   .bg-\[url\(\'\.\/images\/leaf\.jpg\'\)\] {
     background-image: url('./images/leaf.jpg');
   }
+  .bg-\[url\(\'\.\/images\/leaf\.p\'\)\] {
+    background-image: url('./images/leaf.p');
+  }
+  .bg-\[url\(\'\.\/images\/leaf\.webp\'\)\] {
+    background-image: url('./images/leaf.webp');
+  }
   .bg-\[url\(\'\.\/images\/onion\.jpg\'\)\] {
     background-image: url('./images/onion.jpg');
+  }
+  .bg-\[url\(\'\.\/images\/peony\.\'\)\] {
+    background-image: url('./images/peony.');
+  }
+  .bg-\[url\(\'\.\/images\/peony\.jpg\'\)\] {
+    background-image: url('./images/peony.jpg');
   }
   .bg-\[url\(\'\.\/images\/peony\.webp\'\)\] {
     background-image: url('./images/peony.webp');
   }
   .bg-\[url\(\'\.\/images\/plant\.jpg\'\)\] {
     background-image: url('./images/plant.jpg');
-  }
-  .bg-\[url\(\'\.\/images\/primula\.jpg\'\)\] {
-    background-image: url('./images/primula.jpg');
   }
   .bg-\[url\(\'\.\/images\/succulent\.webp\'\)\] {
     background-image: url('./images/succulent.webp');
