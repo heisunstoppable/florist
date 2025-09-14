@@ -92,6 +92,12 @@
   animation: popIn 0.4s ease-out forwards;
 }
 
+@media (hover: none) {
+  .label:active .label-con {
+    display: block;
+  }
+}
+
 
 
 
