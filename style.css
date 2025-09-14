@@ -11,7 +11,7 @@
     background-size:contain;
     background-position: right bottom;
 }
-.benefit, .flower-sec, #about, #floral, #newarrival, #subtxt, .florist, .romantic{
+.benefit, .flower-sec, #about, #floral, #newarrival, #subtxt, .florist, .romantic, .footer{
     /* font-family: "Playfair Display", serif; */
     font-family: "Crimson Text", serif;
     font-optical-sizing: auto;
@@ -66,4 +66,22 @@
 
 .label:hover .label-con{
     display: block;
-} 
+}
+
+@keyframes popIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  80% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pop-in {
+  animation: popIn 0.4s ease-out forwards;
+}
