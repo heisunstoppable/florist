@@ -64,12 +64,9 @@
     opacity: 1;
 }
 
-/* .label:active .label-con{
+.label:hover .label-con{
     display: block;
-} */
-/* .label:hover .label-con{
-    display: block;
-} */
+}
 
 @keyframes popIn {
   0% {
@@ -88,6 +85,7 @@
 .pop-in {
   animation: popIn 0.4s ease-out forwards;
 }
+
 
 
 
