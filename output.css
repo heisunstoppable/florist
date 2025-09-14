@@ -806,7 +806,7 @@
 }
 @property --tw-outline-style {
   syntax: "*";
-  inherits: false;
+  inherits: false; 
   initial-value: solid;
 }
 @property --tw-duration {
