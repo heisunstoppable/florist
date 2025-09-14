@@ -64,7 +64,10 @@
     opacity: 1;
 }
 
-.label:focus .label-con{
+.label:active .label-con{
+    display: block;
+}
+.label:hover .label-con{
     display: block;
 }
 
@@ -85,4 +88,5 @@
 .pop-in {
   animation: popIn 0.4s ease-out forwards;
 }
+
 
