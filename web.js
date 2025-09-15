@@ -101,3 +101,18 @@ const testimonials = [
       index = (index + 1) % testimonials.length;
       showTestimonial(index);
     }, 5000);
+
+let labels = document.querySelectorAll(".label");
+let contents = document.querySelectorAll(".label-con");
+
+labels.forEach((label, index) => {
+  label.addEventListener("click", () => {
+    // First, close all content
+    contents.forEach(content => content.classList.add("hidden"));
+    
+    // Then, open only the one that was clicked
+    contents[index].classList.remove("hidden");
+  });
+});
+
+
