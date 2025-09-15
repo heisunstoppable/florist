@@ -67,12 +67,6 @@
 .label:hover .label-con{
     display: block;
 }
-.label:focus .label-con{
-    display: block;
-}
-.label:active .label-con{
-    display: block;
-}
 
 @keyframes popIn {
   0% {
@@ -97,6 +91,7 @@
     display: block;
   }
 }
+
 
 
 
