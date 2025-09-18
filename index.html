@@ -165,13 +165,14 @@
       <p class="w-fit px-3 py-2 activelinks" onclick="tabswt('basket', this)">Basket of Flower</p>
       <p class="w-fit px-3 py-2 activelinks" onclick="tabswt('gift', this)">Gift combos</p>
     </div>
+    
     <div class="m-5">
       <div id="all">
-
         <!-- all section starts here -->
         <div class="text-center font-semibold allin">
-          <div class="bg-[url('./images/flyme.webp')] bg-cover bg-center h-[30rem] flex items-end">
-            <div class="flex gap-2 mx-auto w-fit mb-5">
+          <!-- containter---1 -->
+          <div class="bg-[url('./images/flyme.webp')] bg-cover bg-center h-[30rem] flex items-end bosquet-main">
+            <div class="flex gap-2 mx-auto w-fit mb-5 bosquet-sub">
               <div class="w-fit rounded-full bg-white p-2" id="icons">
                 <i class="fa-solid fa-magnifying-glass text-2xl"></i>
               </div>
@@ -183,9 +184,11 @@
               </div>
             </div>
           </div>
-          <h1 class="text-2xl mt-5" id="subtxt">Fly Me To The Moon</h1>
-          <p class="mt-2 allinprice">$27.50</p>
-          <p class="text-temi mt-2 allincart hidden">ADD TO CART</p>
+          <div class="bosquet-text">
+            <h1 class="text-2xl mt-5" id="subtxt">Fly Me To The Moon</h1>
+            <p class="mt-2 allinprice">$27.50</p>
+            <p class="text-temi mt-2 allincart hidden">ADD TO CART</p>
+          </div>
         </div>
 
         <div class="text-center font-semibold allin mt-8">
@@ -786,12 +789,7 @@
   <footer class="text-center p-5">
     <p>Copyright &copy;2025 All rights reserved | This template is made with ❤️ by codewithunstoppable: inspired by <span class="text-temi">Colorlib</span></p>
   </footer>
-
-
-
   
-
   <script src="./web.js"></script>
 </body>
 </html>
-
