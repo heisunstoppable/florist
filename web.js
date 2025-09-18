@@ -32,20 +32,20 @@ function navbtn(){
 //     if (endX > startX + 100) prevSlide()
 // })
 
-// function tabswt(sectionId, btn){
-//     document.getElementById("all").style.display = "none"   
-//     document.getElementById("bouqet").style.display = "none"   
-//     document.getElementById("flower").style.display = "none"   
-//     document.getElementById("flowershelf").style.display = "none"   
-//     document.getElementById("basket").style.display = "none"   
-//     document.getElementById("gift").style.display = "none"   
-//     document.getElementById(sectionId).style.display = "block"
+function tabswt(sectionId, btn){
+    document.getElementById("all").style.display = "none"   
+    document.getElementById("bouqet").style.display = "none"   
+    document.getElementById("flower").style.display = "none"   
+    document.getElementById("flowershelf").style.display = "none"   
+    document.getElementById("basket").style.display = "none"   
+    document.getElementById("gift").style.display = "none"   
+    document.getElementById(sectionId).style.display = "block"
 
-//     document.querySelectorAll(".activelinks").forEach(button =>{
-//         button.classList.remove("active")
-//     })
-//     btn.classList.add("active")
-// }
+    document.querySelectorAll(".activelinks").forEach(button =>{
+        button.classList.remove("active")
+    })
+    btn.classList.add("active")
+}
 
 // testimonial section
 
@@ -102,17 +102,38 @@ const testimonials = [
       showTestimonial(index);
     }, 5000);
 
-let labels = document.querySelectorAll(".label");
-let contents = document.querySelectorAll(".label-con");
 
-labels.forEach((label, index) => {
-  label.addEventListener("click", () => {
-    // First, close all content
-    contents.forEach(content => content.classList.add("hidden"));
+
+    // This part is for the hover section
+    let labels = document.querySelectorAll(".label");
+    let contents = document.querySelectorAll(".label-con");
+
+    labels.forEach((label, index) => {
+      label.addEventListener("click", () => {
+      // First, close all content
+      contents.forEach(content => content.classList.add("hidden"));
     
-    // Then, open only the one that was clicked
-    contents[index].classList.remove("hidden");
+      // Then, open only the one that was clicked
+      contents[index].classList.remove("hidden");
+    });
   });
-});
+
+
+
+
+  // This part is also for Tabswitcher over
+
+
+  let bosquetMain = document.querySelectorAll(".bosquet-main")
+  let bosquetSub = document.querySelectorAll(".bosquet-sub")
+  let bosquetText = document.querySelectorAll(".bosquet-text")
+
+  bosquetMain.forEach((bosquetMain, index) => {
+    bosquetMain.addEventListener("click", () =>{
+      contents.forEach(content => content.classList.add("hidden"))
+
+      contents[index].classList.remove("hidden")
+    })
+  })
 
 
